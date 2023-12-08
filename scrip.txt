@@ -1,0 +1,19 @@
+		Kumpulan Script HTML
+	Untuk Pembuat Web,saya punya sedikit kumpulan script yang bisa digunakan untuk mencustom tampilan di dalam web anda.
+Kumpulan Script HTML :
+Teks berjalan bolak-balik
+<marquee behavior=alternate loop=15>teks bolak balik</marquee>
+Teks berwarna biru
+<marquee bgcolor=blue loop=15></marquee>
+Teks berjalan kekanan
+<marquee behavior=scroll direction=right loop=15>teks bergerak ke kanan</marquee>
+Teks berjalan kekiri
+<marquee behavior=scroll direction=left loop=15>teks bergerak ke kiri</marquee>
+Teks bergerak cepat
+<marquee scrollamount=30 loop=15>teks berjalan cepat</marquee>
+Teks bergerak zig-zag
+<marquee behavior="slide" bgcolor="" direction="left" loop=10 scrollamount="5" scrolldelay="10">teks zig zag</marquee>
+Teks berjalan dari bawah keatas
+<marquee behavior="alternate" direction="up" scrollamount="5" scrolldelay="10"><marquee behavior="alternate" direction="left" scrollamount="5" scrolldelay="10">jln bawah keatas</marquee>
+Teks berjalan bersambung dari bawah keatas
+<marquee behavior="alternate" direction="up" scrollamount="5" scrolldelay="10">jln dari bwh ke atas scr bersambung</marquee>
