@@ -1,0 +1,16 @@
+<?php
+session_start();
+	if(isset($_SESSION['id']))
+	{
+		$id=$_SESSION['id'];
+		if('id=='admin'){
+		header("location:admin.pnp");
+		}
+		else{
+		header("location:member.php");
+		}
+	}
+	else{
+		header("location:home.php");
+	}
+?>

@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>Selamat Datang</title>
+	<style type="text/css">@import'area.css'</style>
+</head>
+<body>
+<center>
+	<tr>
+		<td>
+		<div id="body">
+		<div id="sirah">
+<center>
+	<table height="100%" border="0">
+	<tr>
+		<td><img src="gambar/ae.png" height="100%"></td>
+		<td><H1>Selamat Datang Di Online Book</H1></td>
+	</tr>
+	</table>
+</center>
+</div>
+<div id="kiri">
+kiri
+</div>
+<div id="tengah">
+tengah
+</div>
+<div id="kanan">
+<form method="POST" action="login.php">
+<table>
+	<tr>
+		<td>Username</td>
+		<td>:</td>
+		<td><input type="text" name="un"/></td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td>:</td>
+		<td><input type="password" name="pass"/></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="right"><input type="submit" value="login" /></td>
+	</tr>
+</table>
+</form>
+<p>Silahkan Log in untuk memesan dan menikmati layanan lainnya dari kami</p>
+<p>Bila belum terdaftar silahkan<a href="registrasi.php">Registrasi</a></p>
+<form method="POST" action="registrasi.php">
+	<table>
+		<tr>
+			<td>Username</td>
+			<td>:</td>
+			<td><input type="text" name="us"/></td>
+		</tr>
+		<tr>
+			<td>Nama Lengkap</td>
+			<td>:</td>
+			<td><input type="text" name="nl"/></td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td>:</td>
+			<td><input type="text" name="al"/></td>
+		</tr>
+		<tr>
+			<td>Nomor Telepon</td>
+			<td>:</td>
+			<td><input type="text" name="nt"/></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="password" name="passw"/></td>
+		</tr>
+		<tr>
+			<td colspan="3" align="right"><input type="submit" value="Log in"/></td>
+		</tr>
+	</table>
+</form>
+</div>
+</div>
+			</td>
+		</tr>
+	</center>
+</body>
+</html>

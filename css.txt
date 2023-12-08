@@ -1,0 +1,16 @@
+css
+border-style: solid
+ 
+border-style: double
+ 
+border-style: dotted
+ 
+border-style: dashed
+ 
+border-style: groove
+ 
+border-style: inset
+ 
+border-style: outset
+ 
+border-style: ridge

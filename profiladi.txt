@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>::: Profil Adi :::</title>
+</head>
+<body background=>
+<hr>
+|<a href=home.html>Home</a>
+|<a href=profilpembalap.html>Profil Pembalap</a>
+|<a href=motor.html>Motor</a>
+|<a href=profil.html>Profil Adi</a>
+<hr>
+Profil Pembuat Web
+<hr>
+<p>Nama:Purwadi P</p>
+<p>Nama panggilan:Adi</p>
+<p>Tempat,tanggal lahir:Semarang 04-06-1997</p>
+<p>Alamat:Krajan Gunung Tumpeng RT02/RW01,kec Suruh,Kab Semarang</p>
+<p>Sekolah:SMKN 1 Pabelan</p>
+<p>Alamat E-mail: priyambadha@yahoo.com priyambodo97@gmail.com</p>
+</body>
+</html>

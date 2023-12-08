@@ -1,0 +1,21 @@
+<?php
+include"koneksi.php";
+	session_start();
+
+	$un = $_POST['un'];
+	$pass = $_POST['pass'];
+	$query=mysql_query("select status from user where username='$un' and pass='$pass'",$connection)or die(mysql_error());
+	while($row=mysql_fetch_array($query)){
+		$status = $row['status'];
+	}
+	if($status=='operator'){
+		$_SESSION['id']=$un;
+		header("location:index.php");
+	}else if($status=='member'){
+		$_SESSION['id']=$un;
+		header("location:member.php");
+	}else
+	{
+		header("location:home.php");
+	}
+?>
